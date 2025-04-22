@@ -38,13 +38,13 @@ Using the following code we can monitor the serial connection for RFID tags and 
 - Card Type
 - Sector headers 
 - Block Data | Hex + ASCII view
-This .ide code can be found [here](https://github.com/dozmert/Arduino-tinkering/blob/master/Example%20scripts/InformationDump_1).
+This .ide code can be found [here](https://github.com/dozmert/Arduino-tinkering/blob/main/Example%20Scripts/InfomationDump_1.ino).
 ### Software 2
 Lets prepare the module to now write very basic information to blank cards.
 For example, I'll want to record an employee number and name onto the card so I can have a record of who's gained access or learn who the card belongs to if it's lost.
 
 This code has been created to allow the user to not only read cards but also overwrite blocks. The code validates input data within the write options to prevent the user from making any changes to data that could otherwise render the card inoperable as this is only for early stage testing.
-This .ide code can be found [here](https://github.com/dozmert/Arduino-tinkering/blob/master/Example%20scripts/ReadWriter_1).
+This .ide code can be found [here](https://github.com/dozmert/Arduino-tinkering/blob/main/Example%20Scripts/ReadWriter_1.ino).
 ### Notes & Troubleshooting
 
 There is still so much that can be done with this module. It's been very difficult to build a functional menu within the limitations of the IDE.
