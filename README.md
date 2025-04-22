@@ -7,5 +7,5 @@ A collection of small projects I'm working on using an Arduino-Uno and various m
 
 | Modules                                                                                             | Script capabilities               |     |
 | --------------------------------------------------------------------------------------------------- | --------------------------------- | --- |
-| [Sound Buzzer](https://github.com/dozmert/Arduino-tinkering/blob/main/Sound-Buzzer/Sound-buzzer.md) | Make the buzzer play when desired |     |
+| [Sound Buzzer](https://github.com/dozmert/Arduino-tinkering/blob/main/Sound-buzzer/Sound-buzzer.md) | Make the buzzer play when desired |     |
 | [RFID-RC522 Module]()                                                                               | Read / Write RFID/NFC             |     |
