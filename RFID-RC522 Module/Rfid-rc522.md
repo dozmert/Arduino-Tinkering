@@ -27,9 +27,9 @@ Connectivity for an RFID-RC522 module
 First we must install the libraries associated with this module.
 ```
 1. Open Arduino IDE
-2. Go to `Sketch > Include Library > Manage Libraries`
+2. Go to Sketch > Include Library > Manage Libraries
 3. Search for: **MFRC522**
-4. Install: **MFRC522 by GithubCommunity**
+4. Install: MFRC522 by GithubCommunity
 ```
 
 ### Software 1
