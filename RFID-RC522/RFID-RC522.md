@@ -7,7 +7,8 @@ Read / Write using an RFID/NFC module
 #### Components
 - 1x Arduino Uno
 -  1x RFID-RC522 Module
-![](RFID-RC522/img/rfid_1.jpg)
+
+![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RFID-RC522/img/rfid_1.jpg)
 #### Pinout
 | Module Pin | Arduino Uno Pin       |
 | ---------- | --------------------- |
@@ -21,7 +22,7 @@ Read / Write using an RFID/NFC module
 | **3.3V**   | **3.3V** (⚠️ not 5V!) |
 **Important:** RC522 is a 3.3V device. **Do NOT connect it to 5V** — it may damage the module.
 
-![](RFID-RC522/img/rfid_2.jpg)
+![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RFID-RC522/img/rfid_2.jpg)
 ### Software
 #### Libraries
 First we must install the libraries associated with this module.

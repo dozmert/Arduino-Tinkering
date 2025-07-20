@@ -6,48 +6,48 @@ A project based on the work of [Seytonic's Duckduino-microSD](https://github.com
 The following table contains Arduino .ino files that I've put together based on my own testing and examples found online.
 #### Arduino Scripts
 
-| Script Name                    | Script Description                                                                                                                                                                                                           | Features                                                                                                                                                                                                                                                                                                                    | Status   |
-| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| [Arduino-RubberDucky-Part1](X) | This script allows the user to execute scripts loaded onto a MicroSD card module connected to the Arduino. When the Arduino is plugged in via USB, the script on the memory card is executed.                                | Checks if a button is pressed when connected via USB.<br>If not pressed when connected, reads and executes a script on the storage card.<br>If pressed when connected, nothing is run and onboard LEDs strobe.                                                                                                              | Complete |
-| [Arduino-RubberDucky-Part2](X) | This script allows the user to load multiple scripts onto a MicroSD card module connected to the Arduino. Using a DIP switch combination, the user can select what script to execute when the Arduino is plugged in via USB. | Checks if a button is pressed when connected via USB.<br>If not pressed when connected, checks DIP switch states and executes a script on the storage card based on the DIP state.<br>If pressed when connected, nothing is run and onboard LEDs strobe.                                                                    | Complete |
-| [Arduino-RubberDucky-Part3](X) | This script aims to introduce Bluetooth remote interactivity to allow the user to load and execute scripts remotely, as well as send and receive keystrokes made on the PC the device is connected into via USB.             | Checks if a button is pressed when connected via USB.<br>If not pressed when connected, checks DIP switch states and executes a script on the storage card based on the DIP state.<br>If pressed when connected, nothing is run and onboard LEDs strobe.<br>Bluetooth mode available to listen for keystrokes sent over BLE | Hiatus   |
+| Script Name                                                                                                                                   | Script Description                                                                                                                                                                                                           | Features                                                                                                                                                                                                                                                                                                                    | Status   |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| [Arduino-RubberDucky-Part1](https://github.com/dozmert/Arduino-Tinkering/tree/main/RubberDucky/resources/Arduino%20scripts/RubberDucky-Part1) | This script allows the user to execute scripts loaded onto a MicroSD card module connected to the Arduino. When the Arduino is plugged in via USB, the script on the memory card is executed.                                | Checks if a button is pressed when connected via USB.<br>If not pressed when connected, reads and executes a script on the storage card.<br>If pressed when connected, nothing is run and onboard LEDs strobe.                                                                                                              | Complete |
+| [Arduino-RubberDucky-Part2](https://github.com/dozmert/Arduino-Tinkering/tree/main/RubberDucky/resources/Arduino%20scripts/RubberDucky-Part2) | This script allows the user to load multiple scripts onto a MicroSD card module connected to the Arduino. Using a DIP switch combination, the user can select what script to execute when the Arduino is plugged in via USB. | Checks if a button is pressed when connected via USB.<br>If not pressed when connected, checks DIP switch states and executes a script on the storage card based on the DIP state.<br>If pressed when connected, nothing is run and onboard LEDs strobe.                                                                    | Complete |
+| [Arduino-RubberDucky-Part3](https://github.com/dozmert/Arduino-Tinkering/tree/main/RubberDucky/resources/Arduino%20scripts/RubberDucky-Part3) | This script aims to introduce Bluetooth remote interactivity to allow the user to load and execute scripts remotely, as well as send and receive keystrokes made on the PC the device is connected into via USB.             | Checks if a button is pressed when connected via USB.<br>If not pressed when connected, checks DIP switch states and executes a script on the storage card based on the DIP state.<br>If pressed when connected, nothing is run and onboard LEDs strobe.<br>Bluetooth mode available to listen for keystrokes sent over BLE | Hiatus   |
 #### Payload Scripts
 
-|   Payload script   | Description                                                                                                                                                        |
-| :----------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Part1-payload](X) | A simple payload which runs cmd.exe and echos "Hello world"                                                                                                        |
-| [Part2-payload](X) | 64 payloads based on a 6-way DIP switch's binary output. In addition is a txt file with all 64 filenames listed that can be used to index/record your script usage |
-|   Part3-payload]   | N/A                                                                                                                                                                |
+|                                                              Payload script                                                              | Description                                                                                                                                                        |
+| :--------------------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Part1-payload](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/resources/Payload%20scripts/Part1-payload/script.txt) | A simple payload which runs cmd.exe and echos "Hello world"                                                                                                        |
+|      [Part2-payload](https://github.com/dozmert/Arduino-Tinkering/tree/main/RubberDucky/resources/Payload%20scripts/Part2-payload)       | 64 payloads based on a 6-way DIP switch's binary output. In addition is a txt file with all 64 filenames listed that can be used to index/record your script usage |
+|                                                              Part3-payload                                                               | N/A                                                                                                                                                                |
 ### Hardware
 
 #### Components - Part 1 
 - 1x Arduino controller
 >TZT Pro Micro ATmega32U4 5V 16MHz Original Chip
 
-![](RubberDucky/img/build_1.jpg)
+![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/img/build_1.jpg)
 
 - 1x MicroSD card reader module
 >Micro SD Storage Expansion Board Micro SD TF Card Memory Shield Module SPI For Arduino
 > Formatted as FAT32
 
-![](RubberDucky/img/build_2.jpg)
+![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/img/build_2.jpg)
 
 - 1x Tactile switch
 - 1x Resistor (220 Ohm)
 
-![](RubberDucky/img/build_3.jpg)
+![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/img/build_3.jpg)
 
 #### Components - Part 2
 - 1x DIP Switch 
-> 6 way DIP switch, standard pcb IC mounting. Can use various sizes based on Arduino pinout.
+> 6 way DIP switch, standard PCB IC mounting. Can use various sizes based on Arduino pinout.
 
-![](RubberDucky/img/build_4.jpg)
+![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/img/build_4.jpg)
 
 #### Components - Part 3
 - 1x Bluetooth Module
 > Generic Board
 
-![](RubberDucky/img/build_8.jpg)
+![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/img/build_8.jpg)
 
 #### Pinout - Part 1,2 & 3
 Data below based on breadboard layout.
@@ -77,12 +77,16 @@ Data below based on breadboard layout.
 ### Testing
 ##### Part 1
 1. Wiring MicroSD reader to Arduino board
-![](RubberDucky/img/build_5.jpg)
+
+![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/img/build_5.jpg)
+
 2. Wiring tactile button to board.
-![](RubberDucky/img/build_6.jpg)
+
+![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/img/build_6.jpg)
 ##### Part 2
 4. Wiring DIP switch to board.
-![](RubberDucky/img/build_7.jpg)
+
+![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/img/build_7.jpg)
 
 ##### Part 3
 N/A
