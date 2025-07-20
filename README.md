@@ -6,17 +6,18 @@ A collection of small projects I'm working on using Arduino and various modules.
 Please note that I have approached the documentation for these projects in different ways and their presentation may vary. Over time I aim to align them all to a uniform template but this is not always possible when I write as I progress through trial & error.
 ### Projects
 
-| Project                                                                                                        | Description                           | Status      |
-| -------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------- |
-| [Rubber Ducky](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/Rubberducky.md)              | Malicious USB                         | Hiatus      |
-| [Sound Buzzer](https://github.com/dozmert/Arduino-Tinkering/blob/main/SoundBuzzer/SoundBuzzer.md)              | Make the buzzer play when desired     | Completed   |
-| [RFID-RC522 Module](https://github.com/dozmert/Arduino-Tinkering/blob/main/RFID-RC522/RFID-RC522.md)           | Read / Write using an RFID/NFC module | Completed   |
-| [Sunset Light Hack](https://github.com/dozmert/Arduino-Tinkering/blob/main/SunsetLightHack/SunsetLightHack.md) | Controlling RGB Lighting              | In Progress |
-|                                                                                                                |                                       |             |
+| Project                                                                 | Description                           | Status      |
+| ----------------------------------------------------------------------- | ------------------------------------- | ----------- |
+| [RubberDucky](RubberDucky/Rubberducky.md)                               | Malicious USB                         | Hiatus      |
+| [Sound Buzzer](Arduino-Tinkering/SoundBuzzer/SoundBuzzer.md)            | Make the buzzer play when desired     | Completed   |
+| [RFID-RC522 Module](RFID-RC522/RFID-RC522.md)                           | Read / Write using an RFID/NFC module | Completed   |
+| [SunsetLightHack](Arduino-Tinkering/SunsetLightHack/SunsetLightHack.md) | Controlling RGB Lighting              | In Progress |
+|                                                                         |                                       |             |
 
 
 Testing Hyperlinks
 [SunsetLightHack](Arduino-Tinkering/SunsetLightHack/SunsetLightHack.md)
+![SunsetLightHack](Arduino-Tinkering/SunsetLightHack/img/sunsetlight_1.jpg)
 
 ![[SunsetLightHack/img/sunsetlight_7.jpg]]
 

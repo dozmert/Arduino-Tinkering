@@ -1,7 +1,6 @@
 ## Description
 Hacking a [Kmart Anko Smart Wi-Fi LED Sunset Light](https://www.kmart.com.au/product/smart-wi-fi-led-sunset-light-43128976/) in order to control the LEDs without the need of the Mirabella Genio Smart Home App 🤮.
 
-
 ## Build
 ### Hardware
 ### Components
