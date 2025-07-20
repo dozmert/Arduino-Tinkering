@@ -24,31 +24,28 @@ The following table contains Arduino .ino files that I've put together based on 
 - 1x Arduino controller
 >TZT Pro Micro ATmega32U4 5V 16MHz Original Chip
 
-![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/img/build_1.jpg)
+![](RubberDucky/img/build_1.jpg)
 
 - 1x MicroSD card reader module
 >Micro SD Storage Expansion Board Micro SD TF Card Memory Shield Module SPI For Arduino
 > Formatted as FAT32
 
-![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/img/build_2.jpg)
+![](RubberDucky/img/build_2.jpg)
 
 - 1x Tactile switch
 - 1x Resistor (220 Ohm)
 
-![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/img/build_3.jpg)
-
+![](RubberDucky/img/build_3.jpg)
 #### Components - Part 2
 - 1x DIP Switch 
 > 6 way DIP switch, standard PCB IC mounting. Can use various sizes based on Arduino pinout.
 
-![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/img/build_4.jpg)
-
+![](RubberDucky/img/build_4.jpg)
 #### Components - Part 3
 - 1x Bluetooth Module
 > Generic Board
 
-![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/img/build_8.jpg)
-
+![](RubberDucky/img/build_8.jpg)
 #### Pinout - Part 1,2 & 3
 Data below based on breadboard layout.
 
@@ -78,16 +75,15 @@ Data below based on breadboard layout.
 ##### Part 1
 1. Wiring MicroSD reader to Arduino board
 
-![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/img/build_5.jpg)
+![](RubberDucky/img/build_5.jpg)
 
 2. Wiring tactile button to board.
 
-![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/img/build_6.jpg)
+![](RubberDucky/img/build_6.jpg)
 ##### Part 2
 4. Wiring DIP switch to board.
 
-![](https://github.com/dozmert/Arduino-Tinkering/blob/main/RubberDucky/img/build_7.jpg)
-
+![](RubberDucky/img/build_7.jpg)
 ##### Part 3
 N/A
 

@@ -7,7 +7,7 @@ Make the buzzer play when desired
 -  1x Sound Buzzer Module
 > Generic module.
 
-![](https://github.com/dozmert/Arduino-Tinkering/blob/main/SoundBuzzer/img/soundbuzzer_2.jpg)
+![](SoundBuzzer/img/soundbuzzer_1.jpg)
 ### Software
 Using the following code we can set pin8 on the Arduino to output constant power.
 ```C++
@@ -30,7 +30,8 @@ C -> SIGNAL
 |    Pin 9    | ->  | SIG |
 |     GND     | ->  | GND |
 
-![](https://github.com/dozmert/Arduino-Tinkering/blob/main/SoundBuzzer/img/soundbuzzer_1.jpg)
+![](SoundBuzzer/img/soundbuzzer_2.jpg)
+
 Through this layout I was able to have the buzzer play a tone.
 
 ## Notes & Troubleshooting

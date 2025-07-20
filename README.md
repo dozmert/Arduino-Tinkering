@@ -13,7 +13,3 @@ Please note that I have approached the documentation for these projects in diffe
 | [RFID-RC522 Module](RFID-RC522/RFID-RC522.md)                           | Read / Write using an RFID/NFC module | Completed   |
 | [SunsetLightHack](Arduino-Tinkering/SunsetLightHack/SunsetLightHack.md) | Controlling RGB Lighting              | In Progress |
 |                                                                         |                                       |             |
-
-
-Testing Hyperlinks
-![SunsetLightHack](SunsetLightHack/img/sunsetlight_1.jpg)
