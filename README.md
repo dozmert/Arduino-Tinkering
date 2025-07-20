@@ -16,13 +16,4 @@ Please note that I have approached the documentation for these projects in diffe
 
 
 Testing Hyperlinks
-[SunsetLightHack](Arduino-Tinkering/SunsetLightHack/SunsetLightHack.md)
-![SunsetLightHack](Arduino-Tinkering/SunsetLightHack/img/sunsetlight_1.jpg)
-
-![[SunsetLightHack/img/sunsetlight_7.jpg]]
-
-
-
-
-
-# 
+![SunsetLightHack](SunsetLightHack/img/sunsetlight_1.jpg)
